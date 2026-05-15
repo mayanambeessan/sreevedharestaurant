@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sreevedha.vercel.app/</loc>
+    <loc>https://sreevedharestaurant.vercel.app/</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sreevedha.vercel.app/#menu</loc>
+    <loc>https://sreevedharestaurant.vercel.app/#menu</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sreevedha.vercel.app/#about</loc>
+    <loc>https://sreevedharestaurant.vercel.app/#about</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://sreevedha.vercel.app/#contact</loc>
+    <loc>https://sreevedharestaurant.vercel.app/#contact</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
