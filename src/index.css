@@ -526,16 +526,52 @@ body {
 }
 
 .map-container {
+  position: relative;
   border-radius: var(--radius);
   overflow: hidden;
-  min-height: 300px;
+  min-height: 360px;
   box-shadow: var(--shadow-hover);
 }
 
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  border: 0;
+  display: block;
+}
+
+.map-directions-btn {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--green-dark);
+  color: var(--gold);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.55rem 1.2rem;
+  border-radius: 50px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.35);
+  white-space: nowrap;
+  transition: background 0.2s, transform 0.2s;
+  z-index: 10;
+}
+
+.map-directions-btn:hover {
+  background: #0a1628;
+  transform: translateX(-50%) translateY(-2px);
+}
+
+/* keep old placeholder styles for fallback */
 .map-placeholder {
   width: 100%;
   height: 100%;
-  min-height: 300px;
+  min-height: 360px;
   background: linear-gradient(135deg, #40916c, #52b788);
   display: flex;
   flex-direction: column;

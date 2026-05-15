@@ -232,6 +232,7 @@ function Contact() {
           <span className="section-tag">Visit Us</span>
           <h2>Find Sreevedha</h2>
           <p>Come hungry, leave happy</p>
+          <p>Fresh. Authentic. Delicious.</p>
         </div>
         <div className="contact-grid">
           <div className="contact-info">
@@ -239,7 +240,7 @@ function Contact() {
               <span className="info-icon">📍</span>
               <div>
                 <h4>Address</h4>
-                <p>Westhill, Kozhikode (Calicut)<br />Kerala — 673005</p>
+                <p>Near Thayattu Temple, Chungam<br />Westhill, Kozhikode — 673005</p>
               </div>
             </div>
             <div className="info-card">
@@ -265,20 +266,27 @@ function Contact() {
             </div>
           </div>
           <div className="map-container">
-            <div className="map-placeholder">
-              <span className="map-pin">📍</span>
-              <strong>Sreevedha</strong>
-              <p>Near Thayattu ayyappa temple, Chungam, Westhill, Kozhikode, Kerala</p>
-              <a
-                href="https://maps.google.com/?q=Westhill+Kozhikode+Kerala"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-primary"
-                style={{ display: 'inline-block', marginTop: '1rem' }}
-              >
-                Open in Google Maps
-              </a>
-            </div>
+            <iframe
+              title="Sreevedha Location – Near Thayattu Temple, Chungam, Westhill"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.0!2d75.7952!3d11.2730!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba6590603a37ebb%3A0x5cf8e6b2c60a76b3!2sThayattu%20Sree%20Ayyappa%20Temple!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0, display: 'block' }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+            <a
+              className="map-directions-btn"
+              href="https://www.google.com/maps/search/Near+Thayattu+Temple+Chungam+Westhill+Kozhikode+673005"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+              </svg>
+              Get Directions
+            </a>
           </div>
         </div>
       </div>
