@@ -47,6 +47,16 @@ function Navbar() {
 function Hero() {
   return (
     <section className="hero" id="home">
+      <video
+        className="hero-video"
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=1400&q=80"
+      >
+        <source src="https://videos.pexels.com/video-files/3994842/3994842-uhd_2560_1440_25fps.mp4" type="video/mp4" />
+      </video>
       <div className="hero-overlay" />
       <div className="hero-content">
         <div className="hero-badge">100% Pure Vegetarian</div>
